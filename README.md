@@ -2,7 +2,7 @@
 
 these are basic react-apps made by anandhu while studying React
 
-##Installation
+## Installation
 
 First clone the repositary then open terminal and go to the folder of each app then,
 ```bash
