@@ -1,6 +1,6 @@
 # React-basic-works
 
-these are basic react-apps made by anandhu while studying React
+These are basic react-app's made by me while studying React
 
 ## Installation
 
