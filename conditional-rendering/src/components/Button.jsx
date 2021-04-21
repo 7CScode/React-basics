@@ -1,7 +1,19 @@
 import React from "react";
 
 function Button(props) {
-    return ( < button type = "submit" > { props.name } < /button> );
+    
+    const [mouseovercolor,newcolor] = React.useState(false);
+
+    function mouseover(){
+        newcolor(true);
+    }
+
+    function mouseout(){
+        newcolor(false);
+    }
+
+
+    return ( < button type = "submit" style ={{backgroundColor: mouseovercolor ? "black" : "white" }} onMouseOver={mouseover} onMouseOut={mouseout} > { props.name } < /button> );
     }
 
     export default Button;
